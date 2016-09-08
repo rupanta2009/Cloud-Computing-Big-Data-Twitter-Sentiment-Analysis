@@ -1,6 +1,5 @@
 var http = require("http");
 var elasticsearch = require('elasticsearch');
-
 var requestVar = require("request");
 
 http.createServer(function(request, response){
